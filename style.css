@@ -1,0 +1,55 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(182, 189, 193);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(114, 169, 216);
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 23px;
+    text-align: center;
+    color: rgb(2, 2, 22);
+}
+
+select , input{
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px solid rgb(30, 2, 74);
+    border-radius: 10px;
+}
+
+button{
+    color:black;
+    background-color: rgb(188, 100, 37);
+    padding: 10px;
+    margin-top: 15px;
+    border:2px solid rgb(30, 2, 74);
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+button:hover{
+    color: blanchedalmond;
+    background-color: rgb(116, 75, 46);
+}
+
+#result{
+    text-align: center;
+    color: rgb(1, 15, 1);
+    font-weight:bolder;
+    font-size:larger;
+}
